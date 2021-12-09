@@ -19,6 +19,8 @@ elif today.hour >= 11 and today.hour <= 12:
     v = '中午'
 elif today.hour >= 13 and today.hour <= 18:
     v = '下午'
+else:
+    v = '你'
 sayhello = v + '好，打工人！\n'
 
 weekday = today.weekday() + 1
